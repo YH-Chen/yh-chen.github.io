@@ -1828,7 +1828,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #28ff4b;
+  background: #5ccd9f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2669,7 +2669,6 @@ embed {
 svg {
   position: absolute;
   top: 0;
-  left: 0;
   -webkit-transform: scale(-1, 1);
   -moz-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
