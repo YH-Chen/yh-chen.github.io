@@ -1948,7 +1948,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff59;
+  background: #1f21ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2811,4 +2811,8 @@ svg {
   background-color: #fff;
   -webkit-box-shadow: 0 0 10px rgba(202,203,204,0.5);
   -moz-box-shadow: 0 0 10px rgba(202,203,204,0.5);
+}
+.posts-expand .post-eof {
+  margin: 0px;
+  background-color: rgba(255,255,255,0);
 }
