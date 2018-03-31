@@ -99,7 +99,7 @@
 
 
 
-  <meta name="keywords" content="Hexo,Git," />
+  <meta name="keywords" content="hexo,github," />
 
 
 
@@ -113,7 +113,7 @@
 
 
 <meta name="description" content="什么是 Hexo？  Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。—来自“Hexo文档”  配置环境 Node.js  Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。Node.j">
-<meta name="keywords" content="Hexo,Git">
+<meta name="keywords" content="hexo,github">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用GitHub+Hexo搭建个人博客（二）配置Hexo博客基础框架">
 <meta property="og:url" content="http://yoursite.com/2018/03/31/使用GitHub-Hexo搭建个人博客（二）配置Hexo博客基础框架/index.html">
@@ -122,7 +122,8 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-3-31/54678877.jpg">
 <meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-3-31/49030858.jpg">
-<meta property="og:updated_time" content="2018-03-31T12:06:57.942Z">
+<meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-3-31/85839736.jpg">
+<meta property="og:updated_time" content="2018-03-31T15:46:34.239Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用GitHub+Hexo搭建个人博客（二）配置Hexo博客基础框架">
 <meta name="twitter:description" content="什么是 Hexo？  Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。—来自“Hexo文档”  配置环境 Node.js  Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。Node.j">
@@ -452,6 +453,7 @@
 <p>允许用户将自己编写的包或命令行程序上传到NPM服务器供别人使用。</p>
 </blockquote>
 <p>总而言之，就是要使用npm来安装Hexo</p>
+<p>​</p>
 </li>
 <li><p>安装Hexo</p>
 <p>打开Git Bash 或是 命令管理器，执行以下命令就可以了，这样本地就有了hexo的包</p>
@@ -468,33 +470,56 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$npm init</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>初始完成，可以看到文件夹中多了以下文件：<img src="http://oxv1k8kvi.bkt.clouddn.com/18-3-31/54678877.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-3-31/54678877.jpg"></p>
-<ul>
-<li>node_modules：依赖包（一些黑操作，官网有相应的包，也可以自己编写）</li>
-<li>scaffolds：文章模板（post默认、page、draft）</li>
-<li>source：存放文章（/_post/xx.md）</li>
-<li>themes：主题（默认landscape，有点丑，hexo官网预览，下载自己心仪的主题）</li>
-<li>_config.yml：整个博客的配置（themes中也有一个同名文件，为了区分前者称为<code>站点配置文件</code> ，后者称为<code>主题配置文件</code>）</li>
-<li>package.json：应用程序的信息</li>
-</ul>
+<blockquote>
+<p>node_modules：依赖包（一些黑操作，官网有相应的包，也可以自己编写）<br>scaffolds：文章模板（post默认、page、draft）<br>source：存放文章（/_post/xx.md）<br>themes：主题（默认landscape，有点丑，hexo官网预览，下载自己心仪的主题）<br>_config.yml：整个博客的配置（themes中也有一个同名文件，为了区分前者称为<code>站点配置文件</code> ，后者称为<code>主题配置文件</code>）<br> package.json：应用程序的信息</p>
+</blockquote>
 </li>
 </ul>
 </li>
+</ol>
+<ol>
 <li><p>部署到github</p>
 <ul>
-<li>打开<code>站点配置文件</code> ：_config.yml，<code>Ctrl+F</code>找到deploy，进行如下配置，最后保存</li>
-</ul>
+<li><p>打开<code>站点配置文件</code> ：_config.yml，<code>Ctrl+F</code>找到deploy，进行如下配置，最后保存</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: 你的github项目地址</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <p>你的github项目地址</p>
+</li>
+</ul>
 <p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-3-31/49030858.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-3-31/49030858.jpg"></p>
 <ul>
 <li><p>执行下面命令</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>hexo文件解释与命令，请参照<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo文档</a></p>
 </li>
+<li><p>进行本地预览</p>
+<p>打开浏览器输入：<code>localhost:4000</code></p>
+<p><code>hexo server</code>默认打开的是4000端口</p>
+<p>如果不能打开，有可能是4000端口被其他程序给占用了</p>
+<p>第一种方法，请看<a href="http://www.danboard.me/2018/03/31/%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/#more" target="_blank" rel="noopener">端口被占用的解决方法</a></p>
+<p>第二种方法，切换端口</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server -p [端口号]</span><br></pre></td></tr></table></figure>
+<p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-3-31/85839736.jpg" alt="http://localhost:4000"></p>
+<p>​</p>
+</li>
+<li><p>上传到GitHub服务器</p>
+<p>如果预览没问题的话，就可以上传到服务器了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 </li>
-<li><p>​</p>
+<li><p>​ 发布文章</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>layout：文件夹scaffolds中的文章模板（post默认、page、draft），也可以自定义</p>
+<p>title：文章标题</p>
+</blockquote>
+<p>最后还是一样预览再发布到github服务器就ok啦~</p>
+<p>​</p>
 </li>
+</ol>
+<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ol>
+<li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></li>
+<li><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html</a></li>
 </ol>
 
       
@@ -542,9 +567,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i>Hexo</a>
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i>hexo</a>
           
-            <a href="/tags/Git/" rel="tag"><i class="fa fa-tag"></i>Git</a>
+            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i>github</a>
           
         </div>
       
@@ -680,7 +705,7 @@ var jiathis_config={
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -690,10 +715,10 @@ var jiathis_config={
               
               
               <div class="site-state-item site-state-categories">
-                
+                <a href="/categories/index.html">
                   <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
-                
+                </a>
               </div>
             
 
@@ -701,10 +726,10 @@ var jiathis_config={
               
               
               <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">4</span>
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
@@ -774,7 +799,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#配置环境"><span class="nav-number">1.</span> <span class="nav-text">配置环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署博客"><span class="nav-number">2.</span> <span class="nav-text">部署博客</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#配置环境"><span class="nav-number">1.</span> <span class="nav-text">配置环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署博客"><span class="nav-number">2.</span> <span class="nav-text">部署博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考链接"><span class="nav-number">3.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
             
 
           </div>
