@@ -99,7 +99,7 @@
 
 
 
-  <meta name="keywords" content="hexo,github,next," />
+  <meta name="keywords" content="hexo,next,github," />
 
 
 
@@ -113,17 +113,22 @@
 
 
 <meta name="description" content="所谓的进阶，无非就是换个主题呀，添加一些小功能…… 看个人喜好吧！ 说到底，大部分都是参照网上的~~~">
-<meta name="keywords" content="hexo,github,next">
+<meta name="keywords" content="hexo,next,github">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用GitHub+Hexo搭建个人博客（三）Hexo个性化配置进阶">
 <meta property="og:url" content="http://yoursite.com/2018/03/31/使用GitHub-Hexo搭建个人博客（三）Hexo个性化配置进阶/index.html">
 <meta property="og:site_name" content="Danboard">
 <meta property="og:description" content="所谓的进阶，无非就是换个主题呀，添加一些小功能…… 看个人喜好吧！ 说到底，大部分都是参照网上的~~~">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-31T15:47:31.304Z">
+<meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/77995899.jpg">
+<meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/73895753.jpg">
+<meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/68389182.jpg">
+<meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/38578141.jpg">
+<meta property="og:updated_time" content="2018-04-01T07:11:47.334Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用GitHub+Hexo搭建个人博客（三）Hexo个性化配置进阶">
 <meta name="twitter:description" content="所谓的进阶，无非就是换个主题呀，添加一些小功能…… 看个人喜好吧！ 说到底，大部分都是参照网上的~~~">
+<meta name="twitter:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/77995899.jpg">
 
 
 
@@ -292,9 +297,43 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
   
 </nav>
 
@@ -436,6 +475,143 @@
         <p>所谓的进阶，无非就是换个主题呀，添加一些小功能……</p>
 <p>看个人喜好吧！</p>
 <p>说到底，大部分都是参照网上的~~~</p>
+<a id="more"></a>
+<h4 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h4><ul>
+<li>Hexo官网提供了丰富的主题，挑选一款适合自己的，执行以下命令：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone [主题地址] [存放位置]</span><br></pre></td></tr></table></figure>
+<p>例如我选择的主题是Next</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<p>完成之后，在themes目录下就会多了一个主题next的文件夹</p>
+<p>点击预览 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">themes</a></p>
+<ul>
+<li><p>进入<code>站点配置文件</code>  ，找到theme字段，修改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>进入<code>主题配置文件</code> ，找到scheme字段，里面有next主题四种模板。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># <span class="selector-tag">Schemes</span></span><br><span class="line"><span class="selector-tag">scheme</span>: <span class="selector-tag">Muse</span></span><br><span class="line"># <span class="selector-tag">scheme</span>: <span class="selector-tag">Mist</span></span><br><span class="line"># <span class="selector-tag">scheme</span>: <span class="selector-tag">Pisces</span></span><br><span class="line"># <span class="selector-tag">scheme</span>: <span class="selector-tag">Gemini</span></span><br></pre></td></tr></table></figure>
+<p>首先使用命令，打开<a href="http://localhost:4000在本地预览，切换scheme刷新下页面看看效果" target="_blank" rel="noopener">http://localhost:4000在本地预览，切换scheme刷新下页面看看效果</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s -g</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="Next主题"><a href="#Next主题" class="headerlink" title="Next主题"></a>Next主题</h4><h5 id="主题目录"><a href="#主题目录" class="headerlink" title="主题目录"></a>主题目录</h5><blockquote>
+<p>.<br>├── _config.yml<br>├── languages<br>├── layout<br>├── scripts<br>└── source</p>
+</blockquote>
+<p><a href="https://hexo.io/zh-cn/docs/themes.html" target="_blank" rel="noopener">具体解释</a></p>
+<h5 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h5><p>进入<code>站点配置文件</code> ，字段Site</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># <span class="selector-tag">Site</span></span><br><span class="line"><span class="selector-tag">title</span>: <span class="selector-tag">Danboard</span>					# 网站标题</span><br><span class="line"><span class="selector-tag">subtitle</span>: 踮起脚尖，另一种高度	 # 副标题</span><br><span class="line"><span class="selector-tag">description</span>: 					# 描述，显示在侧边栏</span><br><span class="line"><span class="selector-tag">author</span>: <span class="selector-tag">Danboard</span>				# 作者</span><br><span class="line"><span class="selector-tag">language</span>: <span class="selector-tag">zh-Hans</span>				# 语言</span><br><span class="line">timezone: Asia/Shanghai			 # 时间</span><br></pre></td></tr></table></figure>
+<h5 id="站点logo"><a href="#站点logo" class="headerlink" title="站点logo"></a>站点logo</h5><p>进入<code>主题配置文件</code> ，字段favicon</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">favicon</span>:</span><br><span class="line">  small: /images/favicon-16x16-next.png</span><br><span class="line">  medium: /images/favicon-32x32-next.png</span><br><span class="line">  apple_touch_icon: /images/apple-touch-icon-next.png</span><br><span class="line">  safari_pinned_tab: /images/logo.svg</span><br></pre></td></tr></table></figure>
+<p>图标推荐：</p>
+<p><a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome</a></p>
+<p><a href="http://www.iconfont.cn/" target="_blank" rel="noopener">阿里图标</a></p>
+<p>下载图标，指定大小，修改名称，存放在<code>source/images/</code>内</p>
+<h5 id="菜单"><a href="#菜单" class="headerlink" title="菜单"></a>菜单</h5><p>进入<code>主题配置文件</code> ，字段menu</p>
+<p>默认支持<a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome</a>图标，所以<code>||</code>后只要跟上图标名就ok，可以自行更换</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">menu</span>:</span><br><span class="line">  home: / || home</span><br><span class="line">  #about: /about/ || user</span><br><span class="line">  #tags: /tags/ || tags</span><br><span class="line">  #categories: /categories/ || th</span><br><span class="line">  archives: /archives/ || archive</span><br><span class="line">  #schedule: /schedule/ || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: /404/ || heartbea</span><br></pre></td></tr></table></figure>
+<p>选择自己想要的菜单项，取消注释</p>
+<ol>
+<li><p>新建一个about（关于我）页面</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page &quot;about&quot;</span><br></pre></td></tr></table></figure>
+<p>在<code>hexo/source/</code>下生成<code>about/index.md</code> ，编辑index.md文档</p>
+</li>
+<li><p>新建一个tags（标签）页面</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page &quot;tages&quot;</span><br></pre></td></tr></table></figure>
+<p>在<code>hexo/source/</code>下生成<code>tages/index.md</code> ，修改如下</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">type: tages</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>新建一个categories（分类）页面</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page &quot;categories&quot;</span><br></pre></td></tr></table></figure>
+<p>在<code>hexo/source/</code>下生成<code>/index.md</code> ，修改如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">type: categories</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>新建一个腾讯公益404页面</p>
+<p>在<code>hexo/source/</code>下新建一个404.html的文件，内容如下：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE HTML&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"content-type"</span> <span class="attr">content</span>=<span class="string">"text/html;charset=utf-8;"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge,chrome=1"</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"robots"</span> <span class="attr">content</span>=<span class="string">"all"</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"robots"</span> <span class="attr">content</span>=<span class="string">"index,follow"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/css"</span> <span class="attr">href</span>=<span class="string">"https://qzone.qq.com/gy/404/style/404style.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/plain"</span> <span class="attr">src</span>=<span class="string">"http://www.qq.com/404/search_children.js"</span></span></span><br><span class="line"><span class="tag">          <span class="attr">charset</span>=<span class="string">"utf-8"</span> <span class="attr">homePageUrl</span>=<span class="string">"/"</span></span></span><br><span class="line"><span class="tag">          <span class="attr">homePageName</span>=<span class="string">"返回主页"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">  </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://qzone.qq.com/gy/404/data.js"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://qzone.qq.com/gy/404/page.js"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>修改菜单</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">commonweal: /404.html || heartbea</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h5 id="侧边栏"><a href="#侧边栏" class="headerlink" title="侧边栏"></a>侧边栏</h5><p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/77995899.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/77995899.jpg"></p>
+<ol>
+<li><p>进入<code>主题配置文件</code> ，字段sidebar</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">sidebar</span>:</span><br><span class="line">  <span class="selector-tag">position</span>: <span class="selector-tag">left</span>		# 靠左</span><br><span class="line">  <span class="selector-id">#position</span>: <span class="selector-tag">right</span>		# 靠右</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#display</span>: <span class="selector-tag">post</span>	# 默认，在文章页面（拥有目录列表）时显示</span><br><span class="line">  <span class="selector-id">#display</span>: <span class="selector-tag">always</span>	# 在所有页面中都显示</span><br><span class="line">  <span class="selector-tag">display</span>: <span class="selector-tag">hide</span>		# 在所有页面中都隐藏（可以手动展开）		</span><br><span class="line">  <span class="selector-id">#display</span>: <span class="selector-tag">remove</span>	# 完全移除</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>头像</p>
+<ul>
+<li><p>添加头像</p>
+<p>进入<code>主题配置文件</code> ，字段avatar</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">avatar: /images/avatar.png  			# 放在source/images/</span><br><span class="line"># avatar: http://example.com/avatar.png	 # 网上链接 url</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>圆形头像</p>
+<p>文件<code>\themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code> ，添加代码：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  </span><br><span class="line">  <span class="comment">/* 头像圆形 */</span></span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">80px</span>;</span><br><span class="line">  <span class="attribute">-webkit-border-radius</span>: <span class="number">80px</span>;</span><br><span class="line">  <span class="attribute">-moz-border-radius</span>: <span class="number">80px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: inset <span class="number">0</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#333</span>sf;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>头像旋转</p>
+<p>同上，添加代码：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.site-author-image</span> &#123;</span><br><span class="line">  <span class="comment">/* 鼠标经过头像旋转360度 */</span></span><br><span class="line">  <span class="attribute">-webkit-transition</span>: -webkit-transform <span class="number">1.5s</span> ease-out;</span><br><span class="line">  <span class="attribute">-moz-transition</span>: -moz-transform <span class="number">1.5s</span> ease-out;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">1.5s</span> ease-out;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">img</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="comment">/* 鼠标经过头像旋转360度 */</span></span><br><span class="line">  <span class="attribute">-webkit-transform</span>: <span class="built_in">rotateZ</span>(360deg);</span><br><span class="line">  <span class="attribute">-moz-transform</span>: <span class="built_in">rotateZ</span>(360deg);</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotateZ</span>(360deg);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* Z 轴旋转动画 */</span></span><br><span class="line">@<span class="keyword">keyframes</span> play &#123;</span><br><span class="line">  0% &#123;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">rotateZ</span>(0deg);</span><br><span class="line">  &#125;</span><br><span class="line">  100% &#123;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">rotateZ</span>(-360deg);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">@-<span class="keyword">webkit</span>-<span class="keyword">keyframes</span> play &#123;</span><br><span class="line">	// 同上</span><br><span class="line">&#125;</span><br><span class="line">@-<span class="keyword">moz</span>-<span class="keyword">keyframes</span> play &#123;</span><br><span class="line">	// 同上</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>社交链接</p>
+<p>进入<code>主题配置文件</code> ，字段social</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">social</span>:</span><br><span class="line">  GitHub: https://github.com/XXX || github</span><br><span class="line">  <span class="selector-id">#E-Mail</span>: <span class="selector-tag">mailto</span><span class="selector-pseudo">:yourname</span>@<span class="keyword">gmail</span>.<span class="keyword">com</span> || envelope</span><br><span class="line">  #Google: https://plus.google.com/yourname || google</span><br><span class="line">  #Twitter: https://twitter.com/yourname || twitter</span><br><span class="line">  #FB Page: https://www.facebook.com/yourname || facebook</span><br><span class="line">  #VK Group: https://vk.com/yourname || vk</span><br><span class="line">  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow</span><br><span class="line">  #YouTube: https://youtube.com/yourname || youtube</span><br><span class="line">  #Instagram: https://instagram.com/yourname || instagram</span><br><span class="line">  #Skype: skype:yourname?call|chat || skype</span><br><span class="line"></span><br><span class="line">social_icons:</span><br><span class="line">  enable: true</span><br><span class="line">  icons_only: false</span><br><span class="line">  transition: false</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>推荐阅读 or 友情链接</p>
+<p>进入<code>主题配置文件</code> ，字段Blogrolls</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># <span class="selector-tag">Blog</span> <span class="selector-tag">rolls</span></span><br><span class="line"><span class="selector-tag">links_icon</span>: <span class="selector-tag">link</span></span><br><span class="line"><span class="selector-tag">links_title</span>: 友情链接</span><br><span class="line"># <span class="selector-tag">links_layout</span>: <span class="selector-tag">block</span>		# 块级	分行显示</span><br><span class="line"><span class="selector-tag">links_layout</span>: <span class="selector-tag">inline</span>		# 内联	同行显示</span><br><span class="line"><span class="selector-tag">links</span>:					   # 添加友链</span><br><span class="line">  SYSU: http://www.sysu.edu.cn/</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h5 id="GitHub边角"><a href="#GitHub边角" class="headerlink" title="GitHub边角"></a>GitHub边角</h5><p>效果：</p>
+<p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/73895753.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/73895753.jpg"></p>
+<p>文件<code>themes/next/layout/_layout.swig</code> ，复制代码放在<code>&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;</code>下，修改<code>href</code>为自己的github地址</p>
+<ul>
+<li><p><a href="http://tholman.com/github-corners/" target="_blank" rel="noopener">GitHub corner</a></p>
+<p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/68389182.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/68389182.jpg"></p>
+</li>
+<li><p><a href="https://blog.github.com/2008-12-19-github-ribbons/" target="_blank" rel="noopener">fork me on GitHub</a></p>
+<p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/38578141.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/38578141.jpg"></p>
+<p>​</p>
+</li>
+</ul>
+<h5 id="动画效果"><a href="#动画效果" class="headerlink" title="动画效果"></a>动画效果</h5><ol>
+<li><p>背景动画</p>
+<p>进入<code>主题配置文件</code> ，字段canvas_nest</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 4种，开启<span class="selector-tag">true</span>，关闭<span class="selector-tag">false</span></span><br><span class="line"><span class="selector-tag">canvas_nest</span>: <span class="selector-tag">false</span></span><br><span class="line"><span class="selector-tag">three_waves</span>: <span class="selector-tag">false</span></span><br><span class="line"><span class="selector-tag">canvas_lines</span>: <span class="selector-tag">true</span></span><br><span class="line"><span class="selector-tag">canvas_sphere</span>: <span class="selector-tag">false</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>进度条</p>
+<p>进入<code>主题配置文件</code> ，字段Progress</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># <span class="selector-tag">Progress</span> <span class="selector-tag">bar</span> <span class="selector-tag">in</span> <span class="selector-tag">the</span> <span class="selector-tag">top</span> <span class="selector-tag">during</span> <span class="selector-tag">page</span> <span class="selector-tag">loading</span>.</span><br><span class="line"><span class="selector-tag">pace</span>: <span class="selector-tag">true</span></span><br><span class="line"><span class="selector-tag">pace_theme</span>: </span><br><span class="line">  <span class="selector-tag">pace-theme-flash</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h5 id="文章编辑"><a href="#文章编辑" class="headerlink" title="文章编辑"></a>文章编辑</h5><ol>
+<li><p>首页预览多篇文章，通过<strong>阅读全文</strong>打开</p>
+<ul>
+<li><p><code>&lt;!--more--&gt;</code>截断  <strong>推荐</strong></p>
+<p>在想要显示在首页的文字下方添加标签<code>&lt;!--more--&gt;</code></p>
+</li>
+<li><p>文章属性description</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: 发布时间</span><br><span class="line">tages: 文章标签</span><br><span class="line">description: 摘要，显示在首页</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>自动显示</p>
+<p>进入<code>主题配置文件</code> ，字段auto_excerpt</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">auto_excerpt</span>:</span><br><span class="line">  <span class="selector-tag">enable</span>: <span class="selector-tag">true</span></span><br><span class="line">  <span class="selector-tag">length</span>: 150		# 截取长度为150个字符</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>文章背景</p>
+<p>添加边框阴影，突出文章，打开文件<code>themes/next/source/css/_custom/custom.styl</code> ，该文件可以让自定义一些布局，通过浏览器的开发者工具找到对应标签，就可以进行设置了。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.post</span> &#123;</span><br><span class="line">  <span class="attribute">margin-top</span>: <span class="number">60px</span>;</span><br><span class="line">  <span class="attribute">margin-bottom</span>: <span class="number">60px</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">25px</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">-webkit-box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(202, 203, 204, .5);</span><br><span class="line">  <span class="attribute">-moz-box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(202, 203, 204, .5);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>文章分割线</p>
+<p>文章添加边框阴影后，分割线就显得有点多余，在<code>custom.styl</code>文件中添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">.posts-expand .post-eof &#123;</span><br><span class="line">    margin: 0px;</span><br><span class="line">    background-color: rgba(255, 255, 255, 0);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<li><a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">Next文档</a></li>
+<li><a href="https://segmentfault.com/a/1190000009544924" target="_blank" rel="noopener">hexo的next主题个性化配置教程</a></li>
+</ul>
 
       
     </div>
@@ -484,9 +660,9 @@
           
             <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i>hexo</a>
           
-            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i>github</a>
-          
             <a href="/tags/next/" rel="tag"><i class="fa fa-tag"></i>next</a>
+          
+            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i>github</a>
           
         </div>
       
@@ -508,6 +684,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/04/01/使用GitHub-Hexo搭建个人博客（四）hexo高阶之第三方插件/" rel="prev" title="使用GitHub+Hexo搭建个人博客（四）hexo高阶之第三方插件">
+                使用GitHub+Hexo搭建个人博客（四）hexo高阶之第三方插件 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -589,8 +769,17 @@ var jiathis_config={
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -609,7 +798,7 @@ var jiathis_config={
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -668,7 +857,7 @@ var jiathis_config={
             <div class="links-of-blogroll motion-element links-of-blogroll-inline">
               <div class="links-of-blogroll-title">
                 <i class="fa  fa-fw fa-link"></i>
-                Links
+                友情链接
               </div>
               <ul class="links-of-blogroll-list">
                 
@@ -693,6 +882,22 @@ var jiathis_config={
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#主题安装"><span class="nav-number">1.</span> <span class="nav-text">主题安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Next主题"><span class="nav-number">2.</span> <span class="nav-text">Next主题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#主题目录"><span class="nav-number">2.1.</span> <span class="nav-text">主题目录</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#基础配置"><span class="nav-number">2.2.</span> <span class="nav-text">基础配置</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#站点logo"><span class="nav-number">2.3.</span> <span class="nav-text">站点logo</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#菜单"><span class="nav-number">2.4.</span> <span class="nav-text">菜单</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#侧边栏"><span class="nav-number">2.5.</span> <span class="nav-text">侧边栏</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#GitHub边角"><span class="nav-number">2.6.</span> <span class="nav-text">GitHub边角</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#动画效果"><span class="nav-number">2.7.</span> <span class="nav-text">动画效果</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#文章编辑"><span class="nav-number">2.8.</span> <span class="nav-text">文章编辑</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参考链接"><span class="nav-number">3.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -912,6 +1117,323 @@ var jiathis_config={
 
 
   
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
 
 
 
