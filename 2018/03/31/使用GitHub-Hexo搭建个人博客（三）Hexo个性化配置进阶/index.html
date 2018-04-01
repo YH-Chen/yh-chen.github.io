@@ -99,7 +99,7 @@
 
 
 
-  <meta name="keywords" content="github,next," />
+  <meta name="keywords" content="hexo,next,github," />
 
 
 
@@ -113,7 +113,7 @@
 
 
 <meta name="description" content="所谓的进阶，无非就是换个主题呀，添加一些小功能…… 看个人喜好吧！ 说到底，大部分都是参照网上的~~~">
-<meta name="keywords" content="github,next">
+<meta name="keywords" content="hexo,next,github">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用GitHub+Hexo搭建个人博客（三）Hexo个性化配置进阶">
 <meta property="og:url" content="http://yoursite.com/2018/03/31/使用GitHub-Hexo搭建个人博客（三）Hexo个性化配置进阶/index.html">
@@ -125,7 +125,7 @@
 <meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/68389182.jpg">
 <meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/38578141.jpg">
 <meta property="og:image" content="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/58128679.jpg">
-<meta property="og:updated_time" content="2018-04-01T11:37:18.845Z">
+<meta property="og:updated_time" content="2018-04-01T16:33:46.401Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用GitHub+Hexo搭建个人博客（三）Hexo个性化配置进阶">
 <meta name="twitter:description" content="所谓的进阶，无非就是换个主题呀，添加一些小功能…… 看个人喜好吧！ 说到底，大部分都是参照网上的~~~">
@@ -477,7 +477,7 @@
 <p>看个人喜好吧！</p>
 <p>说到底，大部分都是参照网上的~~~</p>
 <a id="more"></a>
-<h4 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h4><ul>
+<h3 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h3><ul>
 <li><p>Hexo官网提供了丰富的主题，挑选一款适合自己的，执行以下命令：</p>
 <figure class="highlight plain"><figcaption><span>basic</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone [主题地址] [存放位置]</span><br></pre></td></tr></table></figure>
 <p>例如我选择的主题是Next</p>
@@ -496,19 +496,19 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s -g</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h4 id="Next主题"><a href="#Next主题" class="headerlink" title="Next主题"></a>Next主题</h4><h5 id="主题目录"><a href="#主题目录" class="headerlink" title="主题目录"></a>主题目录</h5><blockquote>
+<h3 id="Next主题"><a href="#Next主题" class="headerlink" title="Next主题"></a>Next主题</h3><h4 id="主题目录"><a href="#主题目录" class="headerlink" title="主题目录"></a>主题目录</h4><blockquote>
 <p>.<br>├── _config.yml<br>├── languages<br>├── layout<br>├── scripts<br>└── source</p>
 </blockquote>
 <p><a href="https://hexo.io/zh-cn/docs/themes.html" target="_blank" rel="noopener">具体解释</a></p>
-<h5 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h5><p>进入<code>站点配置文件</code> ，字段Site</p>
+<h4 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h4><p>进入<code>站点配置文件</code> ，字段Site</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">Danboard</span>					<span class="comment"># 网站标题</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">踮起脚尖，另一种高度</span>	 <span class="comment"># 副标题</span></span><br><span class="line"><span class="attr">description:</span> 					<span class="comment"># 描述，显示在侧边栏</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">Danboard</span>				<span class="comment"># 作者</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-Hans</span>				<span class="comment"># 语言</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span>			 <span class="comment"># 时间</span></span><br></pre></td></tr></table></figure>
-<h5 id="站点logo"><a href="#站点logo" class="headerlink" title="站点logo"></a>站点logo</h5><p>进入<code>主题配置文件</code> ，字段favicon</p>
+<h4 id="站点logo"><a href="#站点logo" class="headerlink" title="站点logo"></a>站点logo</h4><p>进入<code>主题配置文件</code> ，字段favicon</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">favicon:</span></span><br><span class="line"><span class="attr">  small:</span> <span class="string">/images/favicon-16x16-next.png</span></span><br><span class="line"><span class="attr">  medium:</span> <span class="string">/images/favicon-32x32-next.png</span></span><br><span class="line"><span class="attr">  apple_touch_icon:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="attr">  safari_pinned_tab:</span> <span class="string">/images/logo.svg</span></span><br></pre></td></tr></table></figure>
 <p>图标推荐：</p>
 <p><a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome</a></p>
 <p><a href="http://www.iconfont.cn/" target="_blank" rel="noopener">阿里图标</a></p>
 <p>下载图标，指定大小，修改名称，存放在<code>source/images/</code>内</p>
-<h5 id="菜单"><a href="#菜单" class="headerlink" title="菜单"></a>菜单</h5><p>进入<code>主题配置文件</code> ，字段menu</p>
+<h4 id="菜单"><a href="#菜单" class="headerlink" title="菜单"></a>菜单</h4><p>进入<code>主题配置文件</code> ，字段menu</p>
 <p>默认支持<a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome</a>图标，所以<code>||</code>后只要跟上图标名就ok，可以自行更换</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line"><span class="attr">  home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">home</span></span><br><span class="line">  <span class="comment">#about: /about/ || user</span></span><br><span class="line">  <span class="comment">#tags: /tags/ || tags</span></span><br><span class="line">  <span class="comment">#categories: /categories/ || th</span></span><br><span class="line"><span class="attr">  archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">archive</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || calendar</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || sitemap</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || heartbea</span></span><br></pre></td></tr></table></figure>
 <p>选择自己想要的菜单项，取消注释</p>
@@ -534,7 +534,7 @@
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">commonweal:</span> <span class="string">/404.html</span> <span class="string">||</span> <span class="string">heartbea</span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h5 id="侧边栏"><a href="#侧边栏" class="headerlink" title="侧边栏"></a>侧边栏</h5><p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/77995899.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/77995899.jpg"></p>
+<h4 id="侧边栏"><a href="#侧边栏" class="headerlink" title="侧边栏"></a>侧边栏</h4><p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/77995899.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/77995899.jpg"></p>
 <ol>
 <li><p>进入<code>主题配置文件</code> ，字段sidebar</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line"><span class="attr">  position:</span> <span class="string">left</span>		<span class="comment"># 靠左</span></span><br><span class="line">  <span class="comment">#position: right		# 靠右</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">#display: post	# 默认，在文章页面（拥有目录列表）时显示</span></span><br><span class="line">  <span class="comment">#display: always	# 在所有页面中都显示</span></span><br><span class="line"><span class="attr">  display:</span> <span class="string">hide</span>		<span class="comment"># 在所有页面中都隐藏（可以手动展开）		</span></span><br><span class="line">  <span class="comment">#display: remove	# 完全移除</span></span><br></pre></td></tr></table></figure>
@@ -564,7 +564,7 @@
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Blog rolls</span></span><br><span class="line"><span class="attr">links_icon:</span> <span class="string">link</span></span><br><span class="line"><span class="attr">links_title:</span> <span class="string">友情链接</span></span><br><span class="line"><span class="comment"># links_layout: block		# 块级	分行显示</span></span><br><span class="line"><span class="attr">links_layout:</span> <span class="string">inline</span>		<span class="comment"># 内联	同行显示</span></span><br><span class="line"><span class="attr">links:</span>			<span class="comment"># 添加友链</span></span><br><span class="line"><span class="attr">  SYSU:</span> <span class="attr">http://www.sysu.edu.cn/</span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h5 id="GitHub边角"><a href="#GitHub边角" class="headerlink" title="GitHub边角"></a>GitHub边角</h5><p>效果：</p>
+<h4 id="GitHub边角"><a href="#GitHub边角" class="headerlink" title="GitHub边角"></a>GitHub边角</h4><p>效果：</p>
 <p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/73895753.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/73895753.jpg"></p>
 <p>文件<code>themes/next/layout/_layout.swig</code> ，复制代码放在<code>&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;</code>下，修改<code>href</code>为自己的github地址</p>
 <ul>
@@ -576,7 +576,7 @@
 <p>​</p>
 </li>
 </ul>
-<h5 id="动画效果"><a href="#动画效果" class="headerlink" title="动画效果"></a>动画效果</h5><ol>
+<h4 id="动画效果"><a href="#动画效果" class="headerlink" title="动画效果"></a>动画效果</h4><ol>
 <li><p>背景动画</p>
 <p>进入<code>主题配置文件</code> ，字段canvas_nest</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 4种，开启true，关闭false</span></span><br><span class="line"><span class="attr">canvas_nest:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">three_waves:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">canvas_lines:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">canvas_sphere:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
@@ -586,10 +586,10 @@
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Progress bar in the top during page loading.</span></span><br><span class="line"><span class="attr">pace:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">pace_theme:</span> </span><br><span class="line">  <span class="string">pace-theme-flash</span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h5 id="文章编辑"><a href="#文章编辑" class="headerlink" title="文章编辑"></a>文章编辑</h5><ol>
+<h4 id="文章编辑"><a href="#文章编辑" class="headerlink" title="文章编辑"></a>文章编辑</h4><ol>
 <li><p>首页预览多篇文章，通过<strong>阅读全文</strong>打开</p>
 <ul>
-<li><p><code>&lt;!--more--&gt;</code>截断  <strong>推荐</strong></p>
+<li><p><code>&lt;!--more--&gt;</code>截断  <strong><em><code>推荐</code></em></strong></p>
 <p>在想要显示在首页的文字下方添加标签<code>&lt;!--more--&gt;</code></p>
 </li>
 <li><p>文章属性description</p>
@@ -615,7 +615,7 @@
 <p><img src="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/58128679.jpg" alt="http://oxv1k8kvi.bkt.clouddn.com/18-4-1/58128679.jpg"></p>
 </li>
 </ol>
-<h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul>
 <li><a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">Next文档</a></li>
 <li><a href="https://segmentfault.com/a/1190000009544924" target="_blank" rel="noopener">hexo的next主题个性化配置教程</a></li>
 </ul>
@@ -665,9 +665,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i>github</a>
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i>hexo</a>
           
             <a href="/tags/next/" rel="tag"><i class="fa fa-tag"></i>next</a>
+          
+            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i>github</a>
           
         </div>
       
@@ -710,33 +712,6 @@
 
 
     <div class="post-spread">
-      
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-<span class="jiathis_txt">分享到：</span>
-<a class="jiathis_button_fav">收藏夹</a>
-<a class="jiathis_button_tsina">微博</a>
-<!-- <a class="jiathis_button_copy">复制网址</a> -->
-<!-- <a class="jiathis_button_email">邮件</a> -->
-<a class="jiathis_button_weixin">微信</a>
-<!--<a class="jiathis_button_qzone">QQ空间</a> -->
-<!-- <a class="jiathis_button_tqq">腾讯微博</a> -->
-<!-- <a class="jiathis_button_douban">豆瓣</a> -->
-<a class="jiathis_button_share">一键分享</a>
-
-<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">More</a>
-<a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-var jiathis_config={
-  data_track_clickback:true,
-  summary:"",
-  shortUrl:false,
-  hideMore:false
-}
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
-<!-- JiaThis Button END -->
       
     </div>
   </div>
@@ -897,7 +872,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#主题安装"><span class="nav-number">1.</span> <span class="nav-text">主题安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Next主题"><span class="nav-number">2.</span> <span class="nav-text">Next主题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#主题目录"><span class="nav-number">2.1.</span> <span class="nav-text">主题目录</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#基础配置"><span class="nav-number">2.2.</span> <span class="nav-text">基础配置</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#站点logo"><span class="nav-number">2.3.</span> <span class="nav-text">站点logo</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#菜单"><span class="nav-number">2.4.</span> <span class="nav-text">菜单</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#侧边栏"><span class="nav-number">2.5.</span> <span class="nav-text">侧边栏</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#GitHub边角"><span class="nav-number">2.6.</span> <span class="nav-text">GitHub边角</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#动画效果"><span class="nav-number">2.7.</span> <span class="nav-text">动画效果</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#文章编辑"><span class="nav-number">2.8.</span> <span class="nav-text">文章编辑</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参考链接"><span class="nav-number">3.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#主题安装"><span class="nav-number">1.</span> <span class="nav-text">主题安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Next主题"><span class="nav-number">2.</span> <span class="nav-text">Next主题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#主题目录"><span class="nav-number">2.1.</span> <span class="nav-text">主题目录</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#基础配置"><span class="nav-number">2.2.</span> <span class="nav-text">基础配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#站点logo"><span class="nav-number">2.3.</span> <span class="nav-text">站点logo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#菜单"><span class="nav-number">2.4.</span> <span class="nav-text">菜单</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#侧边栏"><span class="nav-number">2.5.</span> <span class="nav-text">侧边栏</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GitHub边角"><span class="nav-number">2.6.</span> <span class="nav-text">GitHub边角</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#动画效果"><span class="nav-number">2.7.</span> <span class="nav-text">动画效果</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#文章编辑"><span class="nav-number">2.8.</span> <span class="nav-text">文章编辑</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考链接"><span class="nav-number">3.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
             
 
           </div>

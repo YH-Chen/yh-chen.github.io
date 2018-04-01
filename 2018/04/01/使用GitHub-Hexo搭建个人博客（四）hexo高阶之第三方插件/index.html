@@ -99,7 +99,7 @@
 
 
 
-  <meta name="keywords" content="github,next," />
+  <meta name="keywords" content="hexo,next,github," />
 
 
 
@@ -112,15 +112,18 @@
 
 
 
-<meta name="keywords" content="github,next">
+<meta name="description" content="RSS 什么是RSS？ 简易信息聚合（也叫聚合内容）是一种RSS基于XML标准，在互联网上被广泛采用的内容包装和投递协议。RSS(Really Simple Syndication)是一种描述和同步网站内容的格式，是使用最广泛的XML应用。RSS搭建了信息迅速传播的一个技术平台，使得每个人都成为潜在的信息提供者。发布一个RSS文件后，这个RSS Feed中包含的信息就能直接被其他站点调用，而且由于">
+<meta name="keywords" content="hexo,next,github">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用GitHub+Hexo搭建个人博客（四）hexo高阶之第三方插件">
 <meta property="og:url" content="http://yoursite.com/2018/04/01/使用GitHub-Hexo搭建个人博客（四）hexo高阶之第三方插件/index.html">
 <meta property="og:site_name" content="Danboard">
+<meta property="og:description" content="RSS 什么是RSS？ 简易信息聚合（也叫聚合内容）是一种RSS基于XML标准，在互联网上被广泛采用的内容包装和投递协议。RSS(Really Simple Syndication)是一种描述和同步网站内容的格式，是使用最广泛的XML应用。RSS搭建了信息迅速传播的一个技术平台，使得每个人都成为潜在的信息提供者。发布一个RSS文件后，这个RSS Feed中包含的信息就能直接被其他站点调用，而且由于">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-01T11:37:12.033Z">
+<meta property="og:updated_time" content="2018-04-01T12:31:47.357Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用GitHub+Hexo搭建个人博客（四）hexo高阶之第三方插件">
+<meta name="twitter:description" content="RSS 什么是RSS？ 简易信息聚合（也叫聚合内容）是一种RSS基于XML标准，在互联网上被广泛采用的内容包装和投递协议。RSS(Really Simple Syndication)是一种描述和同步网站内容的格式，是使用最广泛的XML应用。RSS搭建了信息迅速传播的一个技术平台，使得每个人都成为潜在的信息提供者。发布一个RSS文件后，这个RSS Feed中包含的信息就能直接被其他站点调用，而且由于">
 
 
 
@@ -464,7 +467,28 @@
       
 
       
-        
+        <h3 id="RSS"><a href="#RSS" class="headerlink" title="RSS"></a>RSS</h3><blockquote>
+<p>什么是RSS？</p>
+<p>简易信息聚合（也叫聚合内容）是一种RSS基于XML标准，在互联网上被广泛采用的内容包装和投递协议。RSS(Really Simple Syndication)是一种描述和同步网站内容的格式，是使用最广泛的XML应用。RSS搭建了信息迅速传播的一个技术平台，使得每个人都成为潜在的信息提供者。发布一个RSS文件后，这个RSS Feed中包含的信息就能<code>直接被其他站点调用</code>，而且由于这些数据都是标准的XML格式，所以也能在其他的终端和服务中使用，是一种描述和同步网站内容的格式。——百度百科</p>
+</blockquote>
+<h5 id="1-生成RSS文件"><a href="#1-生成RSS文件" class="headerlink" title="1 生成RSS文件"></a>1 生成RSS文件</h5><p>安装<code>hexo-generator-feed</code>插件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-generator-feed</span><br></pre></td></tr></table></figure>
+<p>打开<code>站点配置文件</code> ，字段Extensions，添加如下</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: http://hexo.io/plugins/</span></span><br><span class="line"><span class="attr">plugins:</span> <span class="string">hexo-generate-feed</span></span><br></pre></td></tr></table></figure>
+<p>打开<code>主题配置文件</code> ，字段rss，添加如下</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure>
+<p>配置完成，执行下列命令，可以看到<code>/public</code>文件夹中多了一个<code>atom.xml</code>文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+<p>发布之后，在侧边栏会生成一个RSS图标</p>
+<h5 id="2-RSS迁移"><a href="#2-RSS迁移" class="headerlink" title="2 RSS迁移"></a>2 RSS迁移</h5><p>安装<code>hexo-migrator-rss</code>插件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-migrator-rss</span><br></pre></td></tr></table></figure>
+<p>执行下列命令，从 RSS 迁移所有文章。<code>source</code> 可以是文件路径或网址。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo migrate rss &lt;source&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><ul>
+<li><a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">Next文档</a></li>
+<li><a href="https://segmentfault.com/a/1190000009544924" target="_blank" rel="noopener">hexo的next主题个性化配置教程</a></li>
+</ul>
+
       
     </div>
     
@@ -510,9 +534,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i>github</a>
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i>hexo</a>
           
             <a href="/tags/next/" rel="tag"><i class="fa fa-tag"></i>next</a>
+          
+            <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i>github</a>
           
         </div>
       
@@ -552,33 +578,6 @@
 
     <div class="post-spread">
       
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-<span class="jiathis_txt">分享到：</span>
-<a class="jiathis_button_fav">收藏夹</a>
-<a class="jiathis_button_tsina">微博</a>
-<!-- <a class="jiathis_button_copy">复制网址</a> -->
-<!-- <a class="jiathis_button_email">邮件</a> -->
-<a class="jiathis_button_weixin">微信</a>
-<!--<a class="jiathis_button_qzone">QQ空间</a> -->
-<!-- <a class="jiathis_button_tqq">腾讯微博</a> -->
-<!-- <a class="jiathis_button_douban">豆瓣</a> -->
-<a class="jiathis_button_share">一键分享</a>
-
-<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">More</a>
-<a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-var jiathis_config={
-  data_track_clickback:true,
-  summary:"",
-  shortUrl:false,
-  hideMore:false
-}
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-      
     </div>
   </div>
 
@@ -615,8 +614,17 @@ var jiathis_config={
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -719,6 +727,22 @@ var jiathis_config={
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#RSS"><span class="nav-number">1.</span> <span class="nav-text">RSS</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-生成RSS文件"><span class="nav-number">1.0.1.</span> <span class="nav-text">1 生成RSS文件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-RSS迁移"><span class="nav-number">1.0.2.</span> <span class="nav-text">2 RSS迁移</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参考链接"><span class="nav-number">1.1.</span> <span class="nav-text">参考链接</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

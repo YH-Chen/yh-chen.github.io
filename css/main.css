@@ -2042,7 +2042,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #115dec;
+  background: #2491aa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2804,6 +2804,7 @@ img:hover {
 }
 .page-post-detail .comments {
   overflow: hidden;
+  background-color: #fff;
 }
 @media (max-width: 767px) {
   .header-inner,
