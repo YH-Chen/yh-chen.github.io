@@ -30,9 +30,9 @@
       <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
     
     
-      <category term="next" scheme="http://yoursite.com/tags/next/"/>
-    
       <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+      <category term="next" scheme="http://yoursite.com/tags/next/"/>
     
   </entry>
   
@@ -56,9 +56,9 @@
       <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
     
     
-      <category term="next" scheme="http://yoursite.com/tags/next/"/>
-    
       <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+      <category term="next" scheme="http://yoursite.com/tags/next/"/>
     
   </entry>
   
@@ -152,6 +152,8 @@
     
       <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
     
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
       <category term="github" scheme="http://yoursite.com/tags/github/"/>
     
