@@ -99,7 +99,7 @@
 
 
 
-  <meta name="keywords" content="hexo,next,github," />
+  <meta name="keywords" content="hexo,github,next," />
 
 
 
@@ -113,7 +113,7 @@
 
 
 <meta name="description" content="RSS 什么是RSS？ 简易信息聚合（也叫聚合内容）是一种RSS基于XML标准，在互联网上被广泛采用的内容包装和投递协议。RSS(Really Simple Syndication)是一种描述和同步网站内容的格式，是使用最广泛的XML应用。RSS搭建了信息迅速传播的一个技术平台，使得每个人都成为潜在的信息提供者。发布一个RSS文件后，这个RSS Feed中包含的信息就能直接被其他站点调用，而且由于">
-<meta name="keywords" content="hexo,next,github">
+<meta name="keywords" content="hexo,github,next">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用GitHub+Hexo搭建个人博客（四）hexo高阶之第三方插件">
 <meta property="og:url" content="http://yoursite.com/2018/04/01/使用GitHub-Hexo搭建个人博客（四）hexo高阶之第三方插件/index.html">
@@ -511,7 +511,10 @@
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Valine.</span></span><br><span class="line"><span class="comment"># You can get your appid and appkey from https://leancloud.cn</span></span><br><span class="line"><span class="comment"># more info please open https://valine.js.org</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  appid:</span>  <span class="comment"># 填写获取的APP ID</span></span><br><span class="line"><span class="attr">  appkey:</span> <span class="comment"># 填写获取的APP KEY</span></span><br><span class="line"><span class="attr">  notify:</span> <span class="literal">true</span> <span class="comment"># 邮件提醒</span></span><br><span class="line"><span class="attr">  verify:</span> <span class="literal">true</span> <span class="comment"># 验证码</span></span><br><span class="line"><span class="attr">  placeholder:</span> <span class="string">Just</span> <span class="string">go</span> <span class="string">go</span> <span class="comment"># 评论提示语</span></span><br><span class="line"><span class="attr">  avatar:</span> <span class="string">mm</span> <span class="comment"># 头像，具体看Valine官网</span></span><br><span class="line"><span class="attr">  guest_info:</span> <span class="string">nick,mail,link</span> <span class="comment"># 评论者相关属性</span></span><br><span class="line"><span class="attr">  pageSize:</span> <span class="number">10</span> <span class="comment"># 分页</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h4 id="2-畅言"><a href="#2-畅言" class="headerlink" title="2 畅言"></a>2 <a href="https://changyan.kuaizhan.com/" target="_blank" rel="noopener">畅言</a></h4><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul>
+<h4 id="2-畅言"><a href="#2-畅言" class="headerlink" title="2 畅言"></a>2 <a href="https://changyan.kuaizhan.com/" target="_blank" rel="noopener">畅言</a></h4><h3 id="访问统计"><a href="#访问统计" class="headerlink" title="访问统计"></a>访问统计</h3><h4 id="1-不蒜子统计"><a href="#1-不蒜子统计" class="headerlink" title="1 不蒜子统计"></a>1 不蒜子统计</h4><p>进入<code>主题配置文件</code> ，字段busuanzi</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">busuanzi_count:</span></span><br><span class="line">  <span class="comment"># count values only if the other configs are false</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># custom uv span for the whole site			整个网站访问用户量</span></span><br><span class="line"><span class="attr">  site_uv:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  site_uv_header:</span> <span class="string">本站访客数</span></span><br><span class="line"><span class="attr">  site_uv_footer:</span> <span class="string">人次</span></span><br><span class="line">  <span class="comment"># custom pv span for the whole site			整个网站访问总次数</span></span><br><span class="line"><span class="attr">  site_pv:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  site_pv_header:</span> <span class="string">本站总访问量</span></span><br><span class="line"><span class="attr">  site_pv_footer:</span> <span class="string">次</span></span><br><span class="line">  <span class="comment"># custom pv span for one page only			一篇文章的阅读次数</span></span><br><span class="line"><span class="attr">  page_pv:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  page_pv_header:</span> <span class="string">本文总阅读量</span></span><br><span class="line"><span class="attr">  page_pv_footer:</span> <span class="string">次</span></span><br></pre></td></tr></table></figure>
+<h4 id="2-LeanCloud统计"><a href="#2-LeanCloud统计" class="headerlink" title="2 LeanCloud统计"></a>2 LeanCloud统计</h4><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">leancloud_visitors:</span>  <span class="comment"># 文章阅读次数统计</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  appid:</span>  <span class="comment"># 填写获取的APP ID</span></span><br><span class="line"><span class="attr">  appkey:</span> <span class="comment"># 填写获取的APP KEY</span></span><br></pre></td></tr></table></figure>
+<h4 id="3-百度统计"><a href="#3-百度统计" class="headerlink" title="3.百度统计"></a>3.百度统计</h4><h4 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h4><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul>
 <li><a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">Next文档</a></li>
 <li><a href="https://segmentfault.com/a/1190000009544924" target="_blank" rel="noopener">hexo的next主题个性化配置教程</a></li>
 <li><a href="https://ioliu.cn/2017/add-valine-comments-to-your-blog/" target="_blank" rel="noopener">Valine – 一款极简的评论系统</a></li>
@@ -564,9 +567,9 @@
           
             <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i>hexo</a>
           
-            <a href="/tags/next/" rel="tag"><i class="fa fa-tag"></i>next</a>
-          
             <a href="/tags/github/" rel="tag"><i class="fa fa-tag"></i>github</a>
+          
+            <a href="/tags/next/" rel="tag"><i class="fa fa-tag"></i>next</a>
           
         </div>
       
@@ -638,9 +641,9 @@ var jiathis_config={
 
 
           </div>
-          
+         <!-- 
 
-
+ -->
           
 
   
@@ -794,7 +797,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#RSS"><span class="nav-number">1.</span> <span class="nav-text">RSS</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-生成RSS文件"><span class="nav-number">1.1.</span> <span class="nav-text">1 生成RSS文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-RSS迁移"><span class="nav-number">1.2.</span> <span class="nav-text">2 RSS迁移</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#评论系统"><span class="nav-number">2.</span> <span class="nav-text">评论系统</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Valine"><span class="nav-number">2.1.</span> <span class="nav-text">1 Valine</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-畅言"><span class="nav-number">2.2.</span> <span class="nav-text">2 畅言</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考链接"><span class="nav-number">3.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#RSS"><span class="nav-number">1.</span> <span class="nav-text">RSS</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-生成RSS文件"><span class="nav-number">1.1.</span> <span class="nav-text">1 生成RSS文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-RSS迁移"><span class="nav-number">1.2.</span> <span class="nav-text">2 RSS迁移</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#评论系统"><span class="nav-number">2.</span> <span class="nav-text">评论系统</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Valine"><span class="nav-number">2.1.</span> <span class="nav-text">1 Valine</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-畅言"><span class="nav-number">2.2.</span> <span class="nav-text">2 畅言</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#访问统计"><span class="nav-number">3.</span> <span class="nav-text">访问统计</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-不蒜子统计"><span class="nav-number">3.1.</span> <span class="nav-text">1 不蒜子统计</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-LeanCloud统计"><span class="nav-number">3.2.</span> <span class="nav-text">2 LeanCloud统计</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-百度统计"><span class="nav-number">3.3.</span> <span class="nav-text">3.百度统计</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4"><span class="nav-number">3.4.</span> <span class="nav-text">4.</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考链接"><span class="nav-number">4.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
             
 
           </div>
