@@ -460,7 +460,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,759
+                  1,823
                 </span>
               
 
@@ -644,10 +644,18 @@
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">duoshuo_share:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
+</li>
+<li><p>文章加密</p>
+<blockquote>
+<p>这只是一种障眼法</p>
+</blockquote>
+<p>文件<code>/themes/next/layout/_partials/head.swig</code> ，添加如下代码</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">script</span>&gt;</span><br><span class="line">    (<span class="selector-tag">function</span>()&#123;</span><br><span class="line">        if('&#123;&#123; page.password &#125;&#125;')&#123;</span><br><span class="line">            if (prompt('请输入文章密码') !== '&#123;&#123; page.password &#125;&#125;')&#123;</span><br><span class="line">                alert('密码错误！');</span><br><span class="line">                <span class="selector-tag">history</span><span class="selector-class">.back</span>();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>文章属性添加</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">password: # 你设定的密码</span><br></pre></td></tr></table></figure>
 <p>​</p>
 </li>
 </ol>
-<h4 id="访问统计"><a href="#访问统计" class="headerlink" title="访问统计"></a>访问统计</h4><p>文件<code></code>\themes\next\layout_partials\footer.swig`</p>
 <h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul>
 <li><a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">Next文档</a></li>
 <li><a href="https://segmentfault.com/a/1190000009544924" target="_blank" rel="noopener">hexo的next主题个性化配置教程</a></li>
@@ -934,7 +942,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#主题安装"><span class="nav-number">1.</span> <span class="nav-text">主题安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Next主题"><span class="nav-number">2.</span> <span class="nav-text">Next主题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#主题目录"><span class="nav-number">2.1.</span> <span class="nav-text">主题目录</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#基础配置"><span class="nav-number">2.2.</span> <span class="nav-text">基础配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#站点logo"><span class="nav-number">2.3.</span> <span class="nav-text">站点logo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#菜单"><span class="nav-number">2.4.</span> <span class="nav-text">菜单</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#侧边栏"><span class="nav-number">2.5.</span> <span class="nav-text">侧边栏</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GitHub边角"><span class="nav-number">2.6.</span> <span class="nav-text">GitHub边角</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#动画效果"><span class="nav-number">2.7.</span> <span class="nav-text">动画效果</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#文章编辑"><span class="nav-number">2.8.</span> <span class="nav-text">文章编辑</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#访问统计"><span class="nav-number">2.9.</span> <span class="nav-text">访问统计</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考链接"><span class="nav-number">3.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#主题安装"><span class="nav-number">1.</span> <span class="nav-text">主题安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Next主题"><span class="nav-number">2.</span> <span class="nav-text">Next主题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#主题目录"><span class="nav-number">2.1.</span> <span class="nav-text">主题目录</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#基础配置"><span class="nav-number">2.2.</span> <span class="nav-text">基础配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#站点logo"><span class="nav-number">2.3.</span> <span class="nav-text">站点logo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#菜单"><span class="nav-number">2.4.</span> <span class="nav-text">菜单</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#侧边栏"><span class="nav-number">2.5.</span> <span class="nav-text">侧边栏</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GitHub边角"><span class="nav-number">2.6.</span> <span class="nav-text">GitHub边角</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#动画效果"><span class="nav-number">2.7.</span> <span class="nav-text">动画效果</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#文章编辑"><span class="nav-number">2.8.</span> <span class="nav-text">文章编辑</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考链接"><span class="nav-number">3.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
             
 
           </div>
@@ -977,7 +985,7 @@ var jiathis_config={
     
       <span class="post-meta-item-text">字数统计&#58;</span>
     
-    <span title="字数统计">5.5k 字</span>
+    <span title="字数统计">5.9k 字</span>
     
   </div>
 
