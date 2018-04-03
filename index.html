@@ -164,6 +164,8 @@
 
 
 
+<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -452,7 +454,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  4
+                  100
                 </span>
               
 
@@ -478,10 +480,27 @@
 
       
         
-          
-          
-博文压缩
-          
+          <p>​      
+        <div id="aplayer-fqYwUxHK" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-fqYwUxHK"),
+            narrow: false,
+            autoplay: false,
+            showlrc: 3,
+            music: {
+              title: "从前慢",
+              author: "刘胡轶",
+              url: "http://oxv1k8kvi.bkt.clouddn.com/%E4%BB%8E%E5%89%8D%E6%85%A2.M4A",
+              pic: "http://oxv1k8kvi.bkt.clouddn.com/18-4-2/49973905.jpg",
+              lrc: "http://oxv1k8kvi.bkt.clouddn.com/liuhuyi.lrc"
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script></p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/04/02/使用GitHub-Hexo搭建个人博客（五）Hexo博客优化和补充/#more" rel="contents">
@@ -644,7 +663,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,653
+                  1,696
                 </span>
               
 
@@ -671,8 +690,8 @@
       
         
           <p>Hexo 静态站点具有一定的局限性，需要借助第三方插件来扩展站点的功能。</p>
-<p>网上很多教程都是直接添加某些代码，但有很多大神的代码已经merge到源码了，修改的或许只有<code>true</code> or <code>false</code>，开启或关闭功能，有些功能可能还需要在第三方服务上注册账号，获取<code>API</code>和<code>APK</code> 。</p>
-<p>利用Hexo搭建博客的人很多，但不都是千篇一律的，有些好的还是要借鉴的，更好的是能够有自己的风格，自己写的源码功能也能merge到源码~~~</p>
+<p>网上很多教程都是直接添加某些代码，但有很多大神的代码已经merge到源码了，修改就比较简单了，<code>true</code> or <code>false</code>，开启或关闭功能，有些功能可能还需要在第三方服务上注册账号，获取<code>API</code>和<code>APK</code> 。</p>
+<p>利用Hexo搭建博客的人很多，但不都是千篇一律的，有些好的还是要借鉴的，更好的是能够有自己的风格，自己写的扩展功能也能够merge到Hexo源码~~~</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/04/01/使用GitHub-Hexo搭建个人博客（四）Hexo高阶之第三方插件/#more" rel="contents">
@@ -1972,8 +1991,10 @@ Node.js 是一个基于 Chrome V8 引擎的 JavaScript
         </div>
       </section>
 
-      
+      <div class="aplayer" data-id="36229050" data-server="netease" data-type="song"></div>
 
+      
+      
       
 
     </div>
@@ -2009,7 +2030,7 @@ Node.js 是一个基于 Chrome V8 引擎的 JavaScript
     
       <span>字数统计：</span>
     
-    <span title="字数统计">6.4k 字 </span>
+    <span title="字数统计">6.5k 字 </span>
     
   </div>
 
