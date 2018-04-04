@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[使用GitHub+Hexo搭建个人博客（五）Hexo博客优化和补充]]></title>
     <url>%2F%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E5%92%8C%E8%A1%A5%E5%85%85%2F</url>
-    <content type="text"><![CDATA[​ var ap = new APlayer({ element: document.getElementById("aplayer-wOgyXxkb"), narrow: false, autoplay: false, showlrc: 3, music: { title: "从前慢", author: "刘胡轶", url: "http://oxv1k8kvi.bkt.clouddn.com/%E4%BB%8E%E5%89%8D%E6%85%A2.M4A", pic: "http://oxv1k8kvi.bkt.clouddn.com/18-4-2/49973905.jpg", lrc: "http://oxv1k8kvi.bkt.clouddn.com/liuhuyi.lrc" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); 博文压缩SEO SEO（Search Engine Optimization），汉译为搜索引擎优化。搜索引擎优化是一种利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式 遇到问题1 注意备份2 大小写问题参考链接 想让你的博客被更多的人在搜索引擎中搜到吗？]]></content>
+    <content type="text"><![CDATA[​ var ap = new APlayer({ element: document.getElementById("aplayer-iGpLoRzL"), narrow: false, autoplay: false, showlrc: 3, music: { title: "从前慢", author: "刘胡轶", url: "http://oxv1k8kvi.bkt.clouddn.com/%E4%BB%8E%E5%89%8D%E6%85%A2.M4A", pic: "http://oxv1k8kvi.bkt.clouddn.com/18-4-2/49973905.jpg", lrc: "http://oxv1k8kvi.bkt.clouddn.com/liuhuyi.lrc" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); 博文压缩SEO SEO（Search Engine Optimization），汉译为搜索引擎优化。搜索引擎优化是一种利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式 遇到问题1 注意备份2 大小写问题参考链接 想让你的博客被更多的人在搜索引擎中搜到吗？]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
