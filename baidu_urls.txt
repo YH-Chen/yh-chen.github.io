@@ -1,8 +1,8 @@
-http://yh-chen.github.io/使用GitHub-Hexo搭建个人博客（五）Hexo博客优化和补充/
-http://yh-chen.github.io/使用GitHub-Hexo搭建个人博客（四）Hexo高阶之第三方插件/
-http://yh-chen.github.io/使用GitHub-Hexo搭建个人博客（三）Hexo个性化配置进阶/
-http://yh-chen.github.io/端口占用的解决方法/
-http://yh-chen.github.io/使用GitHub-Hexo搭建个人博客（二）配置Hexo博客基础框架/
-http://yh-chen.github.io/好久不见/
-http://yh-chen.github.io/使用GitHub-Hexo搭建个人博客（一）GitHub新建一个blog项目/
-http://yh-chen.github.io/hello-world/
+http://www.danboard.me/使用GitHub-Hexo搭建个人博客（五）Hexo博客优化和补充/
+http://www.danboard.me/使用GitHub-Hexo搭建个人博客（四）Hexo高阶之第三方插件/
+http://www.danboard.me/使用GitHub-Hexo搭建个人博客（三）Hexo个性化配置进阶/
+http://www.danboard.me/端口占用的解决方法/
+http://www.danboard.me/使用GitHub-Hexo搭建个人博客（二）配置Hexo博客基础框架/
+http://www.danboard.me/好久不见/
+http://www.danboard.me/使用GitHub-Hexo搭建个人博客（一）GitHub新建一个blog项目/
+http://www.danboard.me/hello-world/
