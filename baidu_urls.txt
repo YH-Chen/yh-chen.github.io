@@ -1,4 +1,5 @@
-http://www.danboard.me/文章加密TEST/
+http://www.danboard.me/文章加密TEST1/
+http://www.danboard.me/文章加密TEST2/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（五）Hexo博客优化和补充/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（四）Hexo高阶之第三方插件/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（三）Hexo个性化配置进阶/
