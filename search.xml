@@ -3,14 +3,14 @@
   <entry>
     <title><![CDATA[使用GitHub+Hexo搭建个人博客（五）Hexo博客优化和补充]]></title>
     <url>%2F%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E5%92%8C%E8%A1%A5%E5%85%85%2F</url>
-    <content type="text"><![CDATA[​var ap=new APlayer({element:document.getElementById("aplayer-kVGVTlfs"),narrow:!1,autoplay:!1,showlrc:3,music:{title:"从前慢",author:"刘胡轶",url:"http://oxv1k8kvi.bkt.clouddn.com/%E4%BB%8E%E5%89%8D%E6%85%A2.M4A",pic:"http://oxv1k8kvi.bkt.clouddn.com/18-4-2/49973905.jpg",lrc:"http://oxv1k8kvi.bkt.clouddn.com/liuhuyi.lrc"}});window.aplayers||(window.aplayers=[]),window.aplayers.push(ap)博文压缩SEOSEO（Search Engine Optimization），汉译为搜索引擎优化。搜索引擎优化是一种利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式。——百度百科1 站点地图站点地图是一个网站所有链接的容器。很多网站的连接层次比较深，爬虫很难抓取到，站点地图可以方便爬虫抓取网站页面，通过抓取网站页面，清晰了解网站的架构，网站地图一般存放在根目录下并命名sitemap，为爬虫指路，增加网站重要内容页面的收录。——百度百科安装插件12$ npm install hexo-generator-sitemap --save $ npm install hexo-generator-baidu-sitemap --save站点配置文件1234567# URL## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'url: http://www.danboard.meroot: /permalink: :title/ # 链接后缀permalink_defaults: # 默认值 lang: enpermalink默认是:year/:month/:day/:title/ ，这样我们的文章生成的连接就会是sitname/year/month/day/title ，网站的连接层次比较深，很难被爬虫抓取，所以可以减少连接的层次验证执行修改后，可以在public目录中看到生成的两个文件sitemap.xml和baidusitemap.xml在浏览器中输入相应地址，如http://www.danboard.me/sitemap.xml来检查是否生成成功2 谷歌收录效率非常高，但需要翻墙，也就是说你的博客只能在境外才能被搜索到首先检查站点是否被收录尝试使用Google Search Console登录/注册添加站点验证站点提交站点地图抓取 &gt; 站点地图验证收录3 百度收录同样是，登录/注册 $\rightarrow$ 添加站点 $\rightarrow$ 验证站点 $\rightarrow$ 提交站点地图提交链接效率：主动推送 &gt; 自动推送 &gt; sitemap主动推送安装插件1$ npm install hexo-baidu-url-submit --save站点配置文件，添加12345baidu_url_submit: count: 1 # 提交最新的一个链接 host: www.danboard.me # 你的博客站点 token: your_token # 你的密钥 path: baidu_urls.txt # 新链接存放文档your_token:提交更新发布，使用命令hexo deploy时提交123456deploy:- type: git repo: - 你的github项目地址 branch: master- type: baidu_url_submitter # 新增的*注意**：自动推送sitemap但是，百度收录的方式就比较麻烦了，因为github屏蔽了百度的爬虫，所以部署在github上的静态站点很难被搜索到，DNS遇到问题1 注意备份2 大小写问题参考链接想让你的博客被更多的人在搜索引擎中搜到吗？Hexo插件之百度主动提交链接]]></content>
+    <content type="text"><![CDATA[​var ap=new APlayer({element:document.getElementById("aplayer-Sevipvtf"),narrow:!1,autoplay:!1,showlrc:3,music:{title:"从前慢",author:"刘胡轶",url:"http://oxv1k8kvi.bkt.clouddn.com/%E4%BB%8E%E5%89%8D%E6%85%A2.M4A",pic:"http://oxv1k8kvi.bkt.clouddn.com/18-4-2/49973905.jpg",lrc:"http://oxv1k8kvi.bkt.clouddn.com/liuhuyi.lrc"}});window.aplayers||(window.aplayers=[]),window.aplayers.push(ap)博文压缩SEOSEO（Search Engine Optimization），汉译为搜索引擎优化。搜索引擎优化是一种利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式。——百度百科1 站点地图站点地图是一个网站所有链接的容器。很多网站的连接层次比较深，爬虫很难抓取到，站点地图可以方便爬虫抓取网站页面，通过抓取网站页面，清晰了解网站的架构，网站地图一般存放在根目录下并命名sitemap，为爬虫指路，增加网站重要内容页面的收录。——百度百科安装插件12$ npm install hexo-generator-sitemap --save $ npm install hexo-generator-baidu-sitemap --save站点配置文件1234567# URL## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'url: http://www.danboard.meroot: /permalink: :title/ # 链接后缀permalink_defaults: # 默认值 lang: enpermalink默认是:year/:month/:day/:title/ ，这样我们的文章生成的连接就会是sitname/year/month/day/title ，网站的连接层次比较深，很难被爬虫抓取，所以可以减少连接的层次验证执行修改后，可以在public目录中看到生成的两个文件sitemap.xml和baidusitemap.xml在浏览器中输入相应地址，如http://www.danboard.me/sitemap.xml来检查是否生成成功2 谷歌收录效率非常高，但需要翻墙，也就是说你的博客只能在境外才能被搜索到首先检查站点是否被收录尝试使用Google Search Console登录/注册添加站点验证站点提交站点地图抓取 &gt; 站点地图验证收录3 百度收录同样是，登录/注册 $\rightarrow$ 添加站点 $\rightarrow$ 验证站点 $\rightarrow$ 提交站点地图提交链接效率：主动推送 &gt; 自动推送 &gt; sitemap主动推送安装插件1$ npm install hexo-baidu-url-submit --save站点配置文件，添加12345baidu_url_submit: count: 1 # 提交最新的一个链接 host: www.danboard.me # 你的博客站点 token: your_token # 你的密钥 path: baidu_urls.txt # 新链接存放文档your_token:提交更新发布，使用命令hexo deploy时提交123456deploy:- type: git repo: - 你的github项目地址 branch: master- type: baidu_url_submitter # 新增的*注意**：自动推送sitemap但是，百度收录的方式就比较麻烦了，因为github屏蔽了百度的爬虫，所以部署在github上的静态站点很难被搜索到，DNS遇到问题1 注意备份2 大小写问题参考链接想让你的博客被更多的人在搜索引擎中搜到吗？Hexo插件之百度主动提交链接]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>github</tag>
         <tag>next</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -22,8 +22,8 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>github</tag>
         <tag>next</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -35,8 +35,8 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>github</tag>
         <tag>next</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
