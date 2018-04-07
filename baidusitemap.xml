@@ -4,6 +4,45 @@
 
     
   <url>
+    <loc>http://www.danboard.me/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86TEST/</loc>
+    <lastmod>2018-04-07T09:04:04.365Z</lastmod>
+    <data>
+        <display>
+        <title>文章加密TEST</title>
+        <pubTime>2018-04-07T09:03:15.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>encrypt</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
+    <lastmod>2018-04-07T08:58:38.861Z</lastmod>
+    <data>
+        <display>
+        <title>好久不见</title>
+        <pubTime>2018-03-30T14:00:00.000Z</pubTime>
+        
+        <tag>Friends</tag>
+         
+         
+           
+             
+              <breadCrumb title="你的名字" url="http://www.danboard.me/categories/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.danboard.me/%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89Hexo%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E8%BF%9B%E9%98%B6/</loc>
     <lastmod>2018-04-07T07:32:43.526Z</lastmod>
     <data>
@@ -13,9 +52,9 @@
         
         <tag>hexo</tag>
          
-        <tag>next</tag>
-         
         <tag>github</tag>
+         
+        <tag>next</tag>
          
          
            
@@ -81,9 +120,9 @@
         
         <tag>hexo</tag>
          
-        <tag>next</tag>
-         
         <tag>github</tag>
+         
+        <tag>next</tag>
          
          
            
@@ -105,9 +144,9 @@
         
         <tag>hexo</tag>
          
-        <tag>next</tag>
-         
         <tag>github</tag>
+         
+        <tag>next</tag>
          
          
            
