@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.danboard.me/about/index.html</loc>
+    
+    <lastmod>2018-04-08T11:05:16.444Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.danboard.me/%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89Hexo%E9%AB%98%E9%98%B6%E4%B9%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8F%92%E4%BB%B6/</loc>
+    
+    <lastmod>2018-04-08T11:04:58.814Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.danboard.me/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86TEST2/</loc>
+    
+    <lastmod>2018-04-08T10:52:06.241Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
+    
+    <lastmod>2018-04-08T10:51:55.442Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.danboard.me/photos/index.html</loc>
     
     <lastmod>2018-04-08T08:41:02.954Z</lastmod>
@@ -9,30 +37,9 @@
   </url>
   
   <url>
-    <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
-    
-    <lastmod>2018-04-08T08:30:53.892Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.danboard.me/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86TEST2/</loc>
-    
-    <lastmod>2018-04-08T07:59:01.652Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.danboard.me/%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E5%92%8C%E8%A1%A5%E5%85%85/</loc>
     
     <lastmod>2018-04-08T07:34:07.942Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.danboard.me/%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89Hexo%E9%AB%98%E9%98%B6%E4%B9%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8F%92%E4%BB%B6/</loc>
-    
-    <lastmod>2018-04-08T07:30:09.579Z</lastmod>
     
   </url>
   
@@ -89,13 +96,6 @@
     <loc>http://www.danboard.me/404.html</loc>
     
     <lastmod>2018-04-01T03:00:18.708Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.danboard.me/about/index.html</loc>
-    
-    <lastmod>2018-03-31T18:21:45.478Z</lastmod>
     
   </url>
   
