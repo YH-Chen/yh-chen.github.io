@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.danboard.me/photos/index.html</loc>
+    
+    <lastmod>2018-04-08T11:12:37.052Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.danboard.me/about/index.html</loc>
     
     <lastmod>2018-04-08T11:05:16.444Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
     
     <lastmod>2018-04-08T10:51:55.442Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.danboard.me/photos/index.html</loc>
-    
-    <lastmod>2018-04-08T08:41:02.954Z</lastmod>
     
   </url>
   
