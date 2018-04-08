@@ -7,4 +7,3 @@ http://www.danboard.me/端口占用的解决方法/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（二）配置Hexo博客基础框架/
 http://www.danboard.me/好久不见/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（一）GitHub新建一个blog项目/
-http://www.danboard.me/hello-world/
