@@ -3,6 +3,27 @@
 
 
     
+    
+  <url>
+    <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
+    <lastmod>2018-04-08T03:59:31.596Z</lastmod>
+    <data>
+        <display>
+        <title>好久不见</title>
+        <pubTime>2018-03-30T14:00:00.000Z</pubTime>
+        
+        <tag>friend</tag>
+         
+         
+           
+             
+              <breadCrumb title="你的名字" url="http://www.danboard.me/categories/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://www.danboard.me/%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E5%92%8C%E8%A1%A5%E5%85%85/</loc>
     <lastmod>2018-04-08T03:49:39.923Z</lastmod>
@@ -13,9 +34,9 @@
         
         <tag>hexo</tag>
          
-        <tag>next</tag>
-         
         <tag>github</tag>
+         
+        <tag>next</tag>
          
          
            
@@ -51,7 +72,6 @@
     
     
     
-    
   <url>
     <loc>http://www.danboard.me/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86TEST2/</loc>
     <lastmod>2018-04-07T10:39:04.491Z</lastmod>
@@ -66,26 +86,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
-    <lastmod>2018-04-07T10:36:54.775Z</lastmod>
-    <data>
-        <display>
-        <title>好久不见</title>
-        <pubTime>2018-03-30T14:00:00.000Z</pubTime>
-        
-        <tag>friend</tag>
-         
-         
-           
-             
-              <breadCrumb title="你的名字" url="http://www.danboard.me/categories/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97/"/>
-          
         </display>
     </data>
     </url>
@@ -140,9 +140,9 @@
         
         <tag>hexo</tag>
          
-        <tag>next</tag>
-         
         <tag>github</tag>
+         
+        <tag>next</tag>
          
          
            
@@ -186,9 +186,9 @@
         
         <tag>hexo</tag>
          
-        <tag>next</tag>
-         
         <tag>github</tag>
+         
+        <tag>next</tag>
          
          
            
