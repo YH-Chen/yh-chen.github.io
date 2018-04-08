@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.danboard.me/photos/index.html</loc>
+    
+    <lastmod>2018-04-08T08:41:02.954Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
     
     <lastmod>2018-04-08T08:30:53.892Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://www.danboard.me/%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%9B%9B%EF%BC%89Hexo%E9%AB%98%E9%98%B6%E4%B9%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8F%92%E4%BB%B6/</loc>
     
     <lastmod>2018-04-08T07:30:09.579Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.danboard.me/photos/index.html</loc>
-    
-    <lastmod>2018-04-08T03:59:40.757Z</lastmod>
     
   </url>
   
