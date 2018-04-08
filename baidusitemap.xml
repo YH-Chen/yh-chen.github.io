@@ -3,30 +3,9 @@
 
 
     
-    
-  <url>
-    <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
-    <lastmod>2018-04-08T03:59:31.596Z</lastmod>
-    <data>
-        <display>
-        <title>好久不见</title>
-        <pubTime>2018-03-30T14:00:00.000Z</pubTime>
-        
-        <tag>friend</tag>
-         
-         
-           
-             
-              <breadCrumb title="你的名字" url="http://www.danboard.me/categories/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
   <url>
     <loc>http://www.danboard.me/%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%94%EF%BC%89Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E5%92%8C%E8%A1%A5%E5%85%85/</loc>
-    <lastmod>2018-04-08T03:49:39.923Z</lastmod>
+    <lastmod>2018-04-08T06:42:08.931Z</lastmod>
     <data>
         <display>
         <title>使用GitHub+Hexo搭建个人博客（五）Hexo博客优化和补充</title>
@@ -47,6 +26,27 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
+    <lastmod>2018-04-08T06:41:08.590Z</lastmod>
+    <data>
+        <display>
+        <title>好久不见</title>
+        <pubTime>2018-03-30T14:00:00.000Z</pubTime>
+        
+        <tag>friend</tag>
+         
+         
+           
+             
+              <breadCrumb title="你的名字" url="http://www.danboard.me/categories/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://www.danboard.me/%E4%BD%BF%E7%94%A8GitHub-Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89GitHub%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AAblog%E9%A1%B9%E7%9B%AE/</loc>
