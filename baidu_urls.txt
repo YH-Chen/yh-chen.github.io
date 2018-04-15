@@ -1,3 +1,7 @@
+http://www.danboard.me/右键菜单的新建项中添加办公程序/
+http://www.danboard.me/STL标准模板库/
+http://www.danboard.me/数组解析/
+http://www.danboard.me/排序算法总结和归纳/
 http://www.danboard.me/文章加密TEST1/
 http://www.danboard.me/文章加密TEST2/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（五）Hexo博客优化和补充/
