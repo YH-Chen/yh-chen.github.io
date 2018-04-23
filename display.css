@@ -39,6 +39,7 @@
     transition: all 0.3s;
 }
 .input-container label {
+    text-align: center;
     -webkit-box-ordinal-group: 101;
     -ms-flex-order: 100;
     font-size: 18px;
@@ -67,4 +68,8 @@ transform: translate(0px, 40px); }
     color: #52616c;
     -webkit-transform: translate(10px) scale(0.9);
     transform: translate(10px) scale(0.9);
+}
+
+input#pass {
+    display: none;
 }
