@@ -1,3 +1,5 @@
+http://www.danboard.me/数据库基础/
+http://www.danboard.me/隐藏未完成编辑的文章/
 http://www.danboard.me/胡言乱语/
 http://www.danboard.me/HTTP协议/
 http://www.danboard.me/TCP-UDP/
