@@ -15,7 +15,7 @@
     margin: 100px auto;
 }
 .input-container input {
-    display: none!important;
+    display: none;
     -webkit-box-ordinal-group: 11;
     order: 10;
     -ms-flex-order: 10;
