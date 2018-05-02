@@ -2,9 +2,7 @@
     width: 80%;
     max-width: 800px;
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none!important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -ms-flex-flow: column-reverse;
@@ -15,6 +13,7 @@
     margin: 100px auto;
 }
 .input-container input {
+    display: none;
     -webkit-box-ordinal-group: 11;
     order: 10;
     -ms-flex-order: 10;
@@ -39,6 +38,7 @@
     transition: all 0.3s;
 }
 .input-container label {
+    text-align: center;
     -webkit-box-ordinal-group: 101;
     -ms-flex-order: 100;
     font-size: 18px;
