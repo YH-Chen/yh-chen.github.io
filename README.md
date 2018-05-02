@@ -1,1 +1,0 @@
-# [www.danboard.me](http://www.danboard.me)
