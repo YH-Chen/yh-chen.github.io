@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://www.danboard.me/c-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2018-05-06T01:02:01.840Z</lastmod>
+    <data>
+        <display>
+        <title>C++内存管理</title>
+        <pubTime>2018-04-28T11:20:46.000Z</pubTime>
+        
+        <tag>C/C++</tag>
+         
+         
+           
+             
+              <breadCrumb title="C/C++" url="http://www.danboard.me/categories/C-C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.danboard.me/%E9%9A%90%E8%97%8F%E6%9C%AA%E5%AE%8C%E6%88%90%E7%BC%96%E8%BE%91%E7%9A%84%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2018-05-02T16:14:43.027Z</lastmod>
     <data>
@@ -17,46 +37,6 @@
            
              
               <breadCrumb title="Hexo" url="http://www.danboard.me/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.danboard.me/C-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</loc>
-    <lastmod>2018-05-02T14:27:53.303Z</lastmod>
-    <data>
-        <display>
-        <title>C++面向对象编程</title>
-        <pubTime>2018-04-28T09:17:22.000Z</pubTime>
-        
-        <tag>C/C++</tag>
-         
-         
-           
-             
-              <breadCrumb title="C/C++" url="http://www.danboard.me/categories/C-C/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.danboard.me/c-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/</loc>
-    <lastmod>2018-04-30T00:22:38.517Z</lastmod>
-    <data>
-        <display>
-        <title>C++内存管理</title>
-        <pubTime>2018-04-28T11:20:46.000Z</pubTime>
-        
-        <tag>C/C++</tag>
-         
-         
-           
-             
-              <breadCrumb title="C/C++" url="http://www.danboard.me/categories/C-C/"/>
           
         </display>
     </data>

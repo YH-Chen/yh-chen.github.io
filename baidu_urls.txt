@@ -1,5 +1,4 @@
 http://www.danboard.me/c-内存管理/
-http://www.danboard.me/C-面向对象/
 http://www.danboard.me/c-基础学习笔记/
 http://www.danboard.me/正方系统抢课程序——Python/
 http://www.danboard.me/数据库基础/
