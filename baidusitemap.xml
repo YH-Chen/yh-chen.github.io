@@ -4,8 +4,173 @@
 
     
   <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab3-Intent%E3%80%81Bundle%E7%9A%84%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8ARecyclerView%E3%80%81ListView%E7%9A%84%E5%BA%94%E7%94%A8/</loc>
+    <lastmod>2018-05-14T02:14:06.316Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab3_Intent、Bundle的使用以及RecyclerView、ListView的应用</title>
+        <pubTime>2018-05-12T14:48:06.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://www.danboard.me/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab4-Broadcast%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-05-13T17:15:37.945Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab4_Broadcast使用</title>
+        <pubTime>2018-05-12T14:49:07.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab2-%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86/</loc>
+    <lastmod>2018-05-13T16:41:20.260Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab2_事件处理</title>
+        <pubTime>2018-05-12T14:46:43.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://www.danboard.me/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab1-%E5%9F%BA%E6%9C%ACUI%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2018-05-12T15:11:55.264Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab1_基本UI界面设计</title>
+        <pubTime>2018-05-12T14:28:57.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://www.danboard.me/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab10-%E4%BC%A0%E6%84%9F%E5%99%A8%E5%BA%94%E7%94%A8%E5%8F%8A%E4%BD%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2018-05-12T14:54:24.229Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab10_传感器应用及位置服务</title>
+        <pubTime>2018-05-12T14:54:24.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab9-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82/</loc>
+    <lastmod>2018-05-12T14:53:32.403Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab9_实现网络请求</title>
+        <pubTime>2018-05-12T14:53:32.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab8-%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
+    <lastmod>2018-05-12T14:52:29.972Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab8_数据存储（二）</title>
+        <pubTime>2018-05-12T14:52:29.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab7-%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
+    <lastmod>2018-05-12T14:51:52.135Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab7_数据存储（一）</title>
+        <pubTime>2018-05-12T14:51:52.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab6-%E6%9C%8D%E5%8A%A1%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B%E2%80%94%E2%80%94%E7%AE%80%E5%8D%95%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</loc>
+    <lastmod>2018-05-12T14:51:07.479Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab6_服务与多线程——简单音乐播放器</title>
+        <pubTime>2018-05-12T14:51:07.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab5-Appwidget%E5%8F%8ABroadcast%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-05-12T14:49:55.883Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab5_Appwidget及Broadcast使用</title>
+        <pubTime>2018-05-12T14:49:55.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.danboard.me/%E4%BA%91%E9%9B%80%E5%8F%AB%E4%BA%86%E4%B8%80%E6%95%B4%E5%A4%A9/</loc>
-    <lastmod>2018-05-12T03:23:08.710Z</lastmod>
+    <lastmod>2018-05-12T03:27:37.172Z</lastmod>
     <data>
         <display>
         <title>云雀叫了一整天</title>
@@ -30,24 +195,6 @@
         <display>
         <title>交叉线</title>
         <pubTime>2018-05-11T02:40:44.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="胡言乱语" url="http://www.danboard.me/categories/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.danboard.me/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/</loc>
-    <lastmod>2018-05-11T02:54:50.653Z</lastmod>
-    <data>
-        <display>
-        <title>胡言乱语</title>
-        <pubTime>2018-04-21T17:18:28.000Z</pubTime>
         
          
            
