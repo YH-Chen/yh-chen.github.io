@@ -1,3 +1,4 @@
+http://www.danboard.me/ipv6-host/
 http://www.danboard.me/【Android】Lab10-传感器应用及位置服务/
 http://www.danboard.me/【Android】Lab9-实现网络请求/
 http://www.danboard.me/【Android】Lab8-数据存储（二）/
@@ -5,7 +6,6 @@ http://www.danboard.me/【Android】Lab7-数据存储（一）/
 http://www.danboard.me/【Android】Lab6-服务与多线程——简单音乐播放器/
 http://www.danboard.me/【Android】Lab5-Appwidget及Broadcast使用/
 http://www.danboard.me/【Android】Lab4-Broadcast使用/
-http://www.danboard.me/【Android】Lab3-Intent、Bundle的使用以及RecyclerView、ListView的应用/
 http://www.danboard.me/【Android】Lab2-事件处理/
 http://www.danboard.me/【Android】Lab1-基本UI界面设计/
 http://www.danboard.me/云雀叫了一整天/
@@ -25,8 +25,8 @@ http://www.danboard.me/文章加密TEST1/
 http://www.danboard.me/文章加密TEST2/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（五）Hexo博客优化和补充/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（四）Hexo高阶之第三方插件/
+http://www.danboard.me/Danboard/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（三）Hexo个性化配置进阶/
 http://www.danboard.me/端口占用的解决方法/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（二）配置Hexo博客基础框架/
-http://www.danboard.me/好久不见/
 http://www.danboard.me/使用GitHub-Hexo搭建个人博客（一）GitHub新建一个blog项目/

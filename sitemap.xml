@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab3-Intent%E3%80%81Bundle%E7%9A%84%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8ARecyclerView%E3%80%81ListView%E7%9A%84%E5%BA%94%E7%94%A8/</loc>
+    <loc>http://www.danboard.me/about/index.html</loc>
     
-    <lastmod>2018-05-14T02:14:06.316Z</lastmod>
+    <lastmod>2018-07-29T18:05:52.334Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.danboard.me/Danboard/</loc>
+    
+    <lastmod>2018-07-29T16:02:33.666Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.danboard.me/ipv6-host/</loc>
+    
+    <lastmod>2018-07-29T10:23:06.863Z</lastmod>
     
   </url>
   
@@ -128,13 +142,6 @@
   </url>
   
   <url>
-    <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
-    
-    <lastmod>2018-04-27T15:20:48.128Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.danboard.me/HTTP%E5%8D%8F%E8%AE%AE/</loc>
     
     <lastmod>2018-04-27T15:20:04.415Z</lastmod>
@@ -243,13 +250,6 @@
     <loc>http://www.danboard.me/categories/index.html</loc>
     
     <lastmod>2018-04-09T02:27:41.321Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.danboard.me/about/index.html</loc>
-    
-    <lastmod>2018-04-09T02:27:41.317Z</lastmod>
     
   </url>
   

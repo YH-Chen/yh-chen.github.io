@@ -3,20 +3,36 @@
 
 
     
+    
   <url>
-    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab3-Intent%E3%80%81Bundle%E7%9A%84%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8ARecyclerView%E3%80%81ListView%E7%9A%84%E5%BA%94%E7%94%A8/</loc>
-    <lastmod>2018-05-14T02:14:06.316Z</lastmod>
+    <loc>http://www.danboard.me/Danboard/</loc>
+    <lastmod>2018-07-29T16:02:33.666Z</lastmod>
     <data>
         <display>
-        <title>【Android】Lab3_Intent、Bundle的使用以及RecyclerView、ListView的应用</title>
-        <pubTime>2018-05-12T14:48:06.000Z</pubTime>
+        <title>阿楞的故事</title>
+        <pubTime>2018-03-31T16:24:59.000Z</pubTime>
         
-        <tag>android</tag>
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.danboard.me/ipv6-host/</loc>
+    <lastmod>2018-07-29T10:23:06.863Z</lastmod>
+    <data>
+        <display>
+        <title>ipv6_host</title>
+        <pubTime>2018-07-29T09:20:05.000Z</pubTime>
+        
+        <tag>tips</tag>
          
          
            
              
-              <breadCrumb title="Android" url="http://www.danboard.me/categories/Android/"/>
+              <breadCrumb title="小技巧" url="http://www.danboard.me/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
           
         </display>
     </data>
@@ -329,26 +345,6 @@
 
     
   <url>
-    <loc>http://www.danboard.me/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
-    <lastmod>2018-04-27T15:20:48.128Z</lastmod>
-    <data>
-        <display>
-        <title>好久不见</title>
-        <pubTime>2018-03-30T14:00:00.000Z</pubTime>
-        
-        <tag>friend</tag>
-         
-         
-           
-             
-              <breadCrumb title="你的名字" url="http://www.danboard.me/categories/%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.danboard.me/HTTP%E5%8D%8F%E8%AE%AE/</loc>
     <lastmod>2018-04-27T15:20:04.415Z</lastmod>
     <data>
@@ -376,9 +372,9 @@
         <title>右键菜单的新建项中添加办公程序</title>
         <pubTime>2018-04-14T01:54:50.000Z</pubTime>
         
-        <tag>windows</tag>
-         
         <tag>tips</tag>
+         
+        <tag>windows</tag>
          
         <tag>markdown</tag>
          
@@ -633,7 +629,6 @@
     </data>
     </url>
 
-    
     
     
     
