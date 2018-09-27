@@ -1,3 +1,4 @@
+http://www.danboard.me/“MySQL配置-Ubuntu”/
 http://www.danboard.me/Intellij-IDEA-插件开发（二）Action解析/
 http://www.danboard.me/Intellij-IDEA-插件开发（一）Hello-World/
 http://www.danboard.me/ipv6-host/
