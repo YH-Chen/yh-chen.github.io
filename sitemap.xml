@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.danboard.me/%E2%80%9CMySQL%E9%85%8D%E7%BD%AE-Ubuntu%E2%80%9D/</loc>
+    <loc>http://www.danboard.me/LeetCode-1-10/</loc>
     
-    <lastmod>2018-09-27T12:10:32.018Z</lastmod>
+    <lastmod>2018-09-28T17:16:38.342Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.danboard.me/MySQL%E9%85%8D%E7%BD%AE-Ubuntu/</loc>
+    
+    <lastmod>2018-09-28T14:58:12.539Z</lastmod>
     
   </url>
   
