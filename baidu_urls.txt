@@ -1,3 +1,4 @@
+http://www.danboard.me/chrome扩展程序-书签及历史记录的搜索/
 http://www.danboard.me/LeetCode-1-10/
 http://www.danboard.me/MySQL配置-Ubuntu/
 http://www.danboard.me/Intellij-IDEA-插件开发（二）Action解析/
