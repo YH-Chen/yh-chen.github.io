@@ -5,10 +5,10 @@
     
   <url>
     <loc>http://www.danboard.me/IntelliJ-IDEA-%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89Action%E8%A7%A3%E6%9E%90/</loc>
-    <lastmod>2018-09-29T11:11:29.311Z</lastmod>
+    <lastmod>2018-09-29T13:05:59.250Z</lastmod>
     <data>
         <display>
-        <title>Intellij IDEA 插件开发（二）Action解析</title>
+        <title>IntelliJ IDEA 插件开发（二）Action解析</title>
         <pubTime>2018-08-18T05:05:59.000Z</pubTime>
         
         <tag>plugin</tag>
@@ -16,7 +16,7 @@
          
            
              
-              <breadCrumb title="Intellij IDEA" url="http://www.danboard.me/categories/Intellij-IDEA/"/>
+              <breadCrumb title="IntelliJ IDEA" url="http://www.danboard.me/categories/IntelliJ-IDEA/"/>
           
         </display>
     </data>
