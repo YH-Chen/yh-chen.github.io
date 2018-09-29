@@ -18,7 +18,6 @@ http://www.danboard.me/云雀叫了一整天/
 http://www.danboard.me/交叉线/
 http://www.danboard.me/c-内存管理/
 http://www.danboard.me/c-面向对象/
-http://www.danboard.me/c-基础学习笔记/
 http://www.danboard.me/正方系统抢课程序——Python/
 http://www.danboard.me/数据库基础/
 http://www.danboard.me/隐藏未完成编辑的文章/
