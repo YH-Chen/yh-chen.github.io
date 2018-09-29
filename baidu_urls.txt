@@ -1,8 +1,8 @@
 http://www.danboard.me/chrome扩展程序-书签及历史记录的搜索/
 http://www.danboard.me/LeetCode-1-10/
 http://www.danboard.me/MySQL配置-Ubuntu/
-http://www.danboard.me/Intellij-IDEA-插件开发（二）Action解析/
-http://www.danboard.me/Intellij-IDEA-插件开发（一）Hello-World/
+http://www.danboard.me/IntelliJ-IDEA-插件开发（二）Action解析/
+http://www.danboard.me/IntelliJ-IDEA-插件开发（一）Hello-World/
 http://www.danboard.me/ipv6-host/
 http://www.danboard.me/【Android】Lab10-传感器应用及位置服务/
 http://www.danboard.me/【Android】Lab9-实现网络请求/
