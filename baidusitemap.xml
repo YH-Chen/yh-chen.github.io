@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab1-%E5%9F%BA%E6%9C%ACUI%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2018-10-14T14:48:05.295Z</lastmod>
+    <data>
+        <display>
+        <title>【Android】Lab1_基本UI界面设计</title>
+        <pubTime>2018-05-12T14:28:57.000Z</pubTime>
+        
+        <tag>android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="http://www.danboard.me/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.danboard.me/XSS%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB/</loc>
     <lastmod>2018-10-01T10:26:54.006Z</lastmod>
     <data>
@@ -95,9 +115,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>next</tag>
+         
+        <tag>github</tag>
          
          
            
@@ -119,9 +139,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>next</tag>
+         
+        <tag>github</tag>
          
          
            
@@ -143,9 +163,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>next</tag>
+         
+        <tag>github</tag>
          
          
            
@@ -315,26 +335,6 @@
            
              
               <breadCrumb title="小技巧" url="http://www.danboard.me/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab1-%E5%9F%BA%E6%9C%ACUI%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2018-09-29T14:19:16.221Z</lastmod>
-    <data>
-        <display>
-        <title>【Android】Lab1_基本UI界面设计</title>
-        <pubTime>2018-05-12T14:28:57.000Z</pubTime>
-        
-        <tag>android</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android" url="http://www.danboard.me/categories/Android/"/>
           
         </display>
     </data>

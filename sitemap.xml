@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab1-%E5%9F%BA%E6%9C%ACUI%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/</loc>
+    
+    <lastmod>2018-10-14T14:48:05.295Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.danboard.me/XSS%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB/</loc>
     
     <lastmod>2018-10-01T10:26:54.006Z</lastmod>
@@ -103,13 +110,6 @@
     <loc>http://www.danboard.me/ipv6-host/</loc>
     
     <lastmod>2018-09-29T14:19:40.111Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab1-%E5%9F%BA%E6%9C%ACUI%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/</loc>
-    
-    <lastmod>2018-09-29T14:19:16.221Z</lastmod>
     
   </url>
   
