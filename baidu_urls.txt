@@ -1,4 +1,3 @@
-http://www.danboard.me/XSS跨站脚本攻击/
 http://www.danboard.me/LeetCode-11-20/
 http://www.danboard.me/chrome扩展程序-书签及历史记录的搜索/
 http://www.danboard.me/LeetCode-1-10/
@@ -16,8 +15,6 @@ http://www.danboard.me/【Android】Lab4-Broadcast使用/
 http://www.danboard.me/【Android】Lab3-Intent、Bundle的使用以及RecyclerView、ListView的应用/
 http://www.danboard.me/【Android】Lab2-事件处理/
 http://www.danboard.me/【Android】Lab1-基本UI界面设计/
-http://www.danboard.me/云雀叫了一整天/
-http://www.danboard.me/交叉线/
 http://www.danboard.me/c-内存管理/
 http://www.danboard.me/c-面向对象/
 http://www.danboard.me/c-基础学习笔记/
