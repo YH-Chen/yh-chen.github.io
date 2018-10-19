@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab3-Intent%E3%80%81Bundle%E7%9A%84%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8ARecyclerView%E3%80%81ListView%E7%9A%84%E5%BA%94%E7%94%A8/</loc>
+    
+    <lastmod>2018-10-19T18:20:49.408Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab9-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82/</loc>
     
     <lastmod>2018-10-19T18:13:51.520Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab4-Broadcast%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2018-10-19T17:08:30.912Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.danboard.me/%E3%80%90Android%E3%80%91Lab3-Intent%E3%80%81Bundle%E7%9A%84%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8ARecyclerView%E3%80%81ListView%E7%9A%84%E5%BA%94%E7%94%A8/</loc>
-    
-    <lastmod>2018-10-19T16:57:52.764Z</lastmod>
     
   </url>
   
